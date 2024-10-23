@@ -3,7 +3,7 @@
 body {
     font-family: Italic;
     margin: 0;
-    background-color: rgb(248, 35, 35);
+    background-color: rgba(84, 218, 228, 0.74);
     padding: 0;
     color: rgba(8, 8, 8, 0.932)
         
@@ -11,8 +11,8 @@ body {
 }
 
 header {
-    background-color: #f00914fd;
-    color: #f50b0b;
+    background-color: #ee8e11ea;
+    color: #69f3ecbe;
     padding: 10px 0;
     text-align: center;
     font: italic;
@@ -30,14 +30,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fd0909;
+    color: #141010;
     text-decoration: none;
 }
 
 .welcome {
     text-align: center;
     padding: 50px 0;
-    background-color: #d80909;
+    background-color: #5de6df;
 }
 
 .carousel {
@@ -52,8 +52,8 @@ nav ul li a {
 }
 
 .carousel-item img {
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -64,6 +64,7 @@ nav ul li a {
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px 0;
+    background-color: #20ecd1;
 }
 
 .destination {
@@ -72,15 +73,15 @@ nav ul li a {
 }
 
 .destination img {
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
     font-display:black
 }
 
 footer {
-    background-color: #5510f5e7;
-    color: #181818;
+    background-color: #e4780bfa;
+    color: #021310;
     text-align: center;
     padding: 10px 0;
     position: fixed;
